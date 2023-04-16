@@ -55,9 +55,11 @@ function check_command() {
 function check_requirements() {
     check_command "curl"
     check_command "dirname"
+    check_command "gcc"
     check_command "getopt"
-    check_command "source"
+    check_command "make"
     check_command "sed"
+    check_command "source"
 }
 
 function detect_profile() {
